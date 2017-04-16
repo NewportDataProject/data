@@ -1,0 +1,12 @@
+---
+layout: default
+role: index
+---
+
+<h1>Hello</h1>
+
+{% for dataset in site.datasets %}
+	<div class="dataset">
+		<h3><a href="{{ dataset.url }}">{{ dataset.title }}</a></h3>
+	</div>
+{% endfor %}

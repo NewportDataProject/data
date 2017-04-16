@@ -1,1 +1,19 @@
-theme: jekyll-theme-slate
+# Site Information
+title: Newport Data Portal
+email: hello@newportdataproject.org
+description: The Open Data portal for the Newport Data Project
+baseurl: ""
+url: "http://newportdataproject.org"
+twitter_username: NewportData
+github_username: NewportDataProject
+
+# Collections
+collections:
+  datasets:
+    output: true
+
+# theme: jekyll-theme-slate
+markdown: kramdown
+repository: newportdataproject/data
+gems:
+  - jekyll-sitemap
