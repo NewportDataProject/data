@@ -1,0 +1,4 @@
+{% include css/bootstrap.min.css %}
+{% include css/navbar-fixed-top.css %}
+{% include css/catalog-table.css %}
+{% include css/style.css %}
