@@ -3,6 +3,10 @@ layout: default
 ---
 <div class="dataset">
 	<h2>{{ page.title }}</h2>
-	<a href="https://github.com/{{site.repository}}/blob/master/{{ page.path }}" target="_blank">File</a>
+	
+	<a href="https://github.com/{{site.repository}}/blob/master/{{ page.path }}" target="_blank">View on GitHub.</a>
+	
+	<p>{{ page.description }}</p>
+	
 	{{ content }}
 </div>

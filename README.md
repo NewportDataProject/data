@@ -6,15 +6,23 @@
 # The Newport Data Project Data Repository
 This is the location of our future repository for open datasets. The idea is to leverage the GitHub's support for [Jekyll](https://jekyllrb.com) to create an easy-to-use web interface for browsing and accessing the data. Beyond the technical aspects of creating the repository, we'll need to come through ways to handle data licensing.
 
-## Why GitHub?
+## Adding data to the repository
+The repository uses jekyll [collections](http://jekyllrb.com/docs/collections/) as the framework.  To add a dataset:  
+1. Fork the repository.
+2. Create a new folder in the `_datasets` directory, named after the dataset.
+2. Create an 'index.md' in the new folder, filling in the yaml frontmatter:  
 
-Importantly, _it's free_. We're resource-limited, so we take what we can get. But there are a lot of benefits (especially for a free package) that we should be able to take advantage of.
+```
+---  
+layout: dataset  
+title: YOUR_TITLE  
+description: YOUR_USEFUL_DESCRIPTION  
+---  
+```  
+3. Put your datafiles in the folder.
+3. Submit a pull request.
 
-Git keeps a record of changes to files, which can [come in handy](https://blog.okfn.org/2016/11/29/git-for-data-analysis-why-version-control-is-essential-collaboration-public-trust/) for maintaining the integrity of a dataset and the analyses that use it. GitHub is designed for file sharing, so the workflow for uploading datasets is pretty natural for the tool. GitHub is also friendly to a [few types of data files](https://help.github.com/categories/working-with-non-code-files/) by providing some basic rendering to allow for easy preview in your browser, including mapping of geospatial data and a search function for tabular data files.
-
-With GitHub pages there is a built-in user interface option (this page is running on it). With very limited effort we can have a clean, user-friendly front end for the data simply by adding markdown and html files.
-
-## Technical Approach
+## Approach
 
 #### Build the data repository inside the website file structure
 
