@@ -1,5 +1,7 @@
 ---
 layout: dataset
 title: Test Dataset
+description: This is a test dataset
 ---
-This is a test dataset.
+
+{{ page.description }}

@@ -3,6 +3,7 @@ title: Newport Data Portal
 email: hello@newportdataproject.org
 description: The Open Data portal for the Newport Data Project
 baseurl: ""
+org_name: Newport Data Project
 url: "http://newportdataproject.org"
 twitter_username: NewportData
 github_username: NewportDataProject

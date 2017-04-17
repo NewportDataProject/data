@@ -1,0 +1,17 @@
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:40%;">Name</th>
+    <th style="width:60%;">Description</th>
+  </tr>
+{% for dataset in site.datasets %}
+  <tr>
+    <td><a href="{{dataset.url}}">{{dataset.title}}</a></td>
+    <td>{{ dataset.description }}</td>
+  </tr>
+{% endfor %} 
+
+</table>
+
+{% include js/catalog-table.js %}

@@ -18,7 +18,8 @@ With GitHub pages there is a built-in user interface option (this page is runnin
 
 #### Build the data repository inside the website file structure
 
-We want to take full advantage of Jekyll for the front end, so we need to make sure the back end is compatible with Jekyll's [file structure](http://jekyllrb.com/docs/structure/). 
+We want to take full advantage of Jekyll for the front end, so we need to make sure the back end is compatible with Jekyll's [file structure](http://jekyllrb.com/docs/structure/).  
+* Use jekyll [collections](http://jekyllrb.com/docs/collections/)
 
 #### Use templates to build the navigation interface
 

@@ -1,8 +1,9 @@
 ---
 layout: dataset
 title: File Share Test
+description: This tests accessing datafiles.
 datafile: test3.csv
 ---
-This tests accessing datafiles.
+{{ page.description }}
 
 {{ page.path }}

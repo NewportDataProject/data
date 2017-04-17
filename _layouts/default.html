@@ -1,7 +1,20 @@
 <!DOCTYPE html>
-<html>
-{% include head.html %}
-<body>
-{{ content }}
+<html lang="en">
+
+	{% include head.html %}
+
+	<body>
+
+	{% include navbar-fixed-top.html %}
+	
+    <div class="container">
+
+	{{ content }}
+
+    </div> <!-- /container -->
+
+
+	{% include js.html %}
+
 </body>
 </html>
