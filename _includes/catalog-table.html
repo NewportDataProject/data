@@ -7,7 +7,7 @@
   </tr>
 {% for dataset in site.datasets %}
   <tr>
-    <td><a href="{{dataset.url}}">{{dataset.title}}</a></td>
+    <td><a href="{{dataset.url | prepend: site.baseurl }}">{{dataset.title}}</a></td>
     <td>{{ dataset.description }}</td>
   </tr>
 {% endfor %} 
