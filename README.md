@@ -1,7 +1,9 @@
 ---
 
 ---
-
+# THE PORTAL HAS MOVED!
+## For datasets, please check out [github.com/newportdataportal](https://github.com/newportdataportal).
+This repository will stick around in case the ideas or code could be useful for any projects, but it should be considered inactive.
 
 # The Newport Data Project Data Repository
 This is the location of our future repository for open datasets. The idea is to leverage the GitHub's support for [Jekyll](https://jekyllrb.com) to create an easy-to-use web interface for browsing and accessing the data. Beyond the technical aspects of creating the repository, we'll need to come through ways to handle data licensing.
